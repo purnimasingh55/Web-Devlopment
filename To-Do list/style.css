@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.col-md-5{
+    margin-top: 150px !important;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px !important;
+}
+button{
+    margin-left: 10px;
+}
+input{
+    display: inline;
+    border: 3px solid black !important;
+    width: 85% !important;
+}
