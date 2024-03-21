@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="outer-container">
+        <button class="hard-reset">Reset Game</button>
+        <p class="score-1"><span class="points"></span><span class="name"></span></p>
+        <i class="points-divider">&#124;</i>
+        <p class="score-2"><span class="points"></span><span class="name"></span></p>
+        <div class="player-one-turn">
+            <p></p>
+        </div>
+        <div class="player-two-turn">
+            <p></p>
+        </div>
+        <div class="board-container">
+            <div class="welcome-window">
+                <h1>Welcome to Tic Tac Toe!</h1>
+                <button class="start-game">Start Game</button>
+            </div>
+            <div class="game-starter">
+                <p>Would you like to be X or O?</p>
+                <button class="choose-x">X</button>
+                <button class="choose-o">O</button>
+                <button class="back-button"><i class="fa fa-arrow-left"></i> Back</button>
+            </div>
+            
+            <div class="game-choice">
+                <p>Choose Number of Players</p>
+                <button class="one-player">One Player</button>
+                <button class="two-player">Two Player</button>
+            </div>
+            <div class="game-board">
+                <div class="draw-message">
+                    <p>Draw...</p>
+                </div>
+                <div class="lose-message">
+                    <p>Opps!!! , you lost..</p>
+                </div>
+                <div class="win-message">
+                    <p>You Won!!!</p>
+                </div>
+                <canvas id="myCanvas"></canvas>
+                <ul class="boxes">
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="./index.js"></script>
